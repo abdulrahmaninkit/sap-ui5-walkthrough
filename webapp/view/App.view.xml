@@ -1,5 +1,8 @@
 <mvc:View
+   controllerName="sap.ui5.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
-   <Text text="Hello World in the XML file"/>
+   <Button
+      text="Click Me"
+      press=".onShowHello"/>
 </mvc:View>
