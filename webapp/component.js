@@ -6,14 +6,10 @@ sap.ui.define([
     "use strict";
  
     return UIComponent.extend("sap.ui5.walkthrough.Component", {
-       metadata : {
-          "interfaces": ["sap.ui.core.IAsyncContentCreation"],
-          "rootView": {
-             "viewName": "sap.ui5.walkthrough.view.App",
-             "type": "XML",
-             "id": "app"
-          }
-       },
+      metadata : {
+         interfaces: ["sap.ui.core.IAsyncContentCreation"],
+         manifest: "json"
+      },
  
        init() {
           // call the init function of the parent
